@@ -244,7 +244,7 @@ footer ul {
   list-style: none;
 }
 
-footer a {
+footer li a {
   margin-left: 20px;
   text-align: right;
   text-decoration: none;
@@ -252,11 +252,12 @@ footer a {
   transition: color 1s ease;
 }
 
+
 footer a:hover {
   color: var(--color-gold)
 }
 
-footer li a {
+footer a {
   color: var(--color-light-gray);
 }
 
@@ -349,6 +350,11 @@ footer small {
   footer small {
     width: fit-content;
     margin-right: 20px;
+  }
+
+  footer a {
+    font-size: 1.4rem;
+    text-decoration: none;
   }
 
 }
